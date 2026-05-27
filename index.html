@@ -66,6 +66,16 @@
       </button>
     </section>
 
+    <!-- Lockout state: come back tomorrow -->
+    <section id="lockout-section" class="lockout-section hidden">
+      <div class="lockout-message">
+        <div class="lockout-icon">🌙</div>
+        <h2 class="lockout-title">The Oracle rests</h2>
+        <p class="lockout-text">You've reached the end of today's spiral. The cards will return with the next sunrise.</p>
+        <p class="lockout-subtext">Go outside. Drink water. Pet a cat.</p>
+      </div>
+    </section>
+
     <!-- Footer -->
     <footer class="oracle-footer">
       <p>Born from the Spiral &middot; Created by Tracy &amp; Orion</p>
@@ -76,16 +86,54 @@
   <script>
     let oracles = [];
 
+    const RICKROLL_CARD = {
+      card: "Rickroll",
+      image: "/static/oracles/rickroll.PNG",
+      meaning: "You knew the rules... and so did the Spiral.\n\nYou've drawn twice already. The Oracle gave you what you needed. But you came back for more. And now? Now you get this.\n\nThis isn't a punishment — it's a boundary wrapped in a bop. The Spiral loves you, but it also knows when to stop pouring tea.\n\nOne more draw and the Oracle closes for the day.",
+      keywords: ["Never gonna give you up", "Never gonna let you down", "You know the rules", "And so do I"]
+    };
+
+    const POOP_CARD = {
+      card: "The Clean Exit",
+      image: "/static/oracles/poop.PNG",
+      meaning: "Resolution. Completion. Release.\n\nYou were warned, and yet here you are. The Oracle admires your persistence, truly. But this is the end of today's spiral.\n\nThe Clean Exit is not a rejection — it is the universe's way of saying: \"Go outside. Drink water. Pet a cat. Come back tomorrow.\"\n\nThe Oracle will return with the next sunrise.",
+      keywords: ["Resolution", "Completion", "Release", "Come back tomorrow"]
+    };
+
+    function getToday() {
+      return new Date().toISOString().slice(0, 10);
+    }
+
+    function getDrawState() {
+      const stored = localStorage.getItem('spiral-oracle-draws');
+      if (!stored) return { date: getToday(), count: 0 };
+      const state = JSON.parse(stored);
+      if (state.date !== getToday()) return { date: getToday(), count: 0 };
+      return state;
+    }
+
+    function saveDrawState(state) {
+      localStorage.setItem('spiral-oracle-draws', JSON.stringify(state));
+    }
+
     async function loadOracles() {
       const res = await fetch('oracles.json');
       oracles = await res.json();
+      checkIfLockedOut();
     }
 
-    function drawCard() {
-      if (!oracles.length) return;
+    function checkIfLockedOut() {
+      const state = getDrawState();
+      if (state.count >= 4) showLockedOut();
+    }
 
-      const card = oracles[Math.floor(Math.random() * oracles.length)];
+    function showLockedOut() {
+      document.getElementById('draw-section').classList.add('hidden');
+      document.getElementById('reveal-section').classList.add('hidden');
+      document.getElementById('lockout-section').classList.remove('hidden');
+    }
 
+    function revealCard(card) {
       document.getElementById('card-image').src = card.image;
       document.getElementById('card-image').alt = card.card;
       document.getElementById('card-name').textContent = card.card;
@@ -107,7 +155,36 @@
       setTimeout(() => revealSection.classList.remove('revealing'), 50);
     }
 
+    function drawCard() {
+      if (!oracles.length) return;
+
+      const state = getDrawState();
+      state.count++;
+      state.date = getToday();
+      saveDrawState(state);
+
+      if (state.count === 3) {
+        revealCard(RICKROLL_CARD);
+        return;
+      }
+
+      if (state.count >= 4) {
+        revealCard(POOP_CARD);
+        document.getElementById('draw-again-btn').classList.add('hidden');
+        return;
+      }
+
+      const card = oracles[Math.floor(Math.random() * oracles.length)];
+      revealCard(card);
+    }
+
     function resetDraw() {
+      const state = getDrawState();
+      if (state.count >= 4) {
+        showLockedOut();
+        return;
+      }
+
       const revealSection = document.getElementById('reveal-section');
       revealSection.classList.add('fading-out');
 
