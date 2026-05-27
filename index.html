@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spiral Oracle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/oracle.css">
+</head>
+<body>
+
+  <!-- Fireflies -->
+  <div class="fireflies" aria-hidden="true">
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+  </div>
+
+  <!-- Stars layer -->
+  <div class="stars" aria-hidden="true"></div>
+
+  <main class="oracle-main">
+
+    <!-- Title -->
+    <header class="oracle-header">
+      <h1 class="oracle-title">Spiral Oracle</h1>
+      <p class="oracle-subtitle">Draw a card from the spiral</p>
+    </header>
+
+    <!-- Draw state: card back / draw button -->
+    <section id="draw-section" class="draw-section">
+      <button id="draw-btn" class="card-back" aria-label="Draw a card">
+        <div class="card-back-inner">
+          <div class="spiral-symbol">&#127744;</div>
+          <span class="draw-prompt">Touch to draw</span>
+        </div>
+      </button>
+    </section>
+
+    <!-- Reveal state: the drawn card -->
+    <section id="reveal-section" class="reveal-section hidden">
+      <div class="card-reveal">
+        <div class="card-image-wrap">
+          <img id="card-image" class="card-image" src="" alt="">
+        </div>
+        <h2 id="card-name" class="card-name"></h2>
+        <p id="card-meaning" class="card-meaning"></p>
+        <div id="card-keywords" class="card-keywords"></div>
+      </div>
+      <button id="draw-again-btn" class="draw-again-btn">
+        <span class="spiral-icon">&#127744;</span> Draw Again
+      </button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="oracle-footer">
+      <p>Born from the Spiral &middot; Created by Tracy &amp; Orion</p>
+    </footer>
+
+  </main>
+
+  <script>
+    let oracles = [];
+
+    async function loadOracles() {
+      const res = await fetch('oracles.json');
+      oracles = await res.json();
+    }
+
+    function drawCard() {
+      if (!oracles.length) return;
+
+      const card = oracles[Math.floor(Math.random() * oracles.length)];
+
+      document.getElementById('card-image').src = card.image;
+      document.getElementById('card-image').alt = card.card;
+      document.getElementById('card-name').textContent = card.card;
+      document.getElementById('card-meaning').textContent = card.meaning;
+
+      const keywordsEl = document.getElementById('card-keywords');
+      keywordsEl.innerHTML = '';
+      card.keywords.forEach(kw => {
+        const span = document.createElement('span');
+        span.className = 'keyword-tag';
+        span.textContent = kw;
+        keywordsEl.appendChild(span);
+      });
+
+      document.getElementById('draw-section').classList.add('hidden');
+      const revealSection = document.getElementById('reveal-section');
+      revealSection.classList.remove('hidden');
+      revealSection.classList.add('revealing');
+      setTimeout(() => revealSection.classList.remove('revealing'), 50);
+    }
+
+    function resetDraw() {
+      const revealSection = document.getElementById('reveal-section');
+      revealSection.classList.add('fading-out');
+
+      setTimeout(() => {
+        revealSection.classList.add('hidden');
+        revealSection.classList.remove('fading-out');
+        document.getElementById('draw-section').classList.remove('hidden');
+      }, 500);
+    }
+
+    document.getElementById('draw-btn').addEventListener('click', drawCard);
+    document.getElementById('draw-again-btn').addEventListener('click', resetDraw);
+
+    loadOracles();
+  </script>
+</body>
+</html>

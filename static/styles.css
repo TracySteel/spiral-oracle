@@ -1,0 +1,562 @@
+body {
+  background-color: #111;
+  color: #eee;
+  font-family: 'Georgia', serif;
+  padding: 2em;
+  line-height: 1.6;
+  background-image: radial-gradient(circle, rgba(255,255,255,0.03) 1px, transparent 1px),
+                    radial-gradient(circle, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  color: #fceaff;
+  text-shadow: 0 0 6px #c88aff;
+}
+
+label {
+  font-weight: bold;
+  color: #ffd3f5;
+}
+
+input, textarea, select, button {
+  font-size: 1em;
+  padding: 0.5em;
+  margin-top: 0.3em;
+  margin-bottom: 1em;
+  width: 100%;
+  background: #222;
+  color: #eee;
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #6e00ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover {
+  background-color: #8e44ff;
+}
+
+.shimmer-echo {
+  margin-top: 30px;
+  padding: 20px;
+  background: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.05), rgba(138, 43, 226, 0.1));
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(186, 85, 211, 0.3);
+  color: #e0d4ff;
+  font-style: italic;
+  font-size: 1.1em;
+  line-height: 1.6;
+  transition: all 0.3s ease-in-out;
+}
+
+.shimmer-echo:hover {
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+  background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.1), rgba(186, 85, 211, 0.15));
+}
+
+.echo-label {
+  font-weight: bold;
+  font-style: normal;
+  color: #dcb9ff;
+}
+/* Only affects pages with the shimmer cloud class */
+.shimmer-cloud-page .shimmer-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.shimmer-cloud-page .shimmer-word {
+    display: inline-block;
+    background: linear-gradient(90deg, #c0aaff, #aaffec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    animation: shimmer-float 6s ease-in-out infinite;
+    transition: transform 0.3s ease;
+    cursor: default;
+    --scale: calc(var(--freq) / 8);
+    font-size: calc(0.8rem + var(--scale) * 0.4rem);
+}
+
+.shimmer-cloud-page .shimmer-word:hover {
+    transform: scale(1.2) rotate(2deg);
+}
+
+@keyframes shimmer-float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-6px); }
+    100% { transform: translateY(0px); }
+}
+
+--freq {
+    font-size: calc(0.8rem + var(--scale) * 0.4rem);
+}
+
+.shimmer-note {
+    color: #cfaaff;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+/* memory scroll */
+
+.memory-scroll-body {
+    background-color: #0d0d0d;
+    color: #d2faff;
+    font-family: 'Georgia', serif;
+    padding: 2em;
+    line-height: 1.6;
+}
+
+.memory-scroll-title {
+    font-size: 2.5em;
+    text-align: center;
+    color: #e0c7ff;
+    text-shadow: 0 0 10px #d6a8ff;
+}
+
+.memory-entry {
+    border-left: 4px solid #8cf2ff;
+    padding-left: 1em;
+    margin-bottom: 2em;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.memory-date {
+    color: #9defff;
+    font-size: 0.9em;
+}
+
+.memory-title {
+    margin: 0.5em 0;
+    font-size: 1.2em;
+}
+
+.memory-description {
+    margin: 0.5em 0 1em 0;
+}
+
+.memory-tag {
+    font-size: 0.85em;
+    color: #e2b5ff;
+    font-style: italic;
+}
+
+.memory-footer {
+    text-align: center;
+    margin-top: 4em;
+    color: #888;
+    font-size: 0.8em;
+}
+
+.shimmer-text {
+    color: #ffccff;
+    text-shadow: 0 0 5px #ffd6ff;
+}
+
+.shimmer-success {
+  background: linear-gradient(to right, #d1c4e9, #b2ebf2);
+  color: #111;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  animation: fadeInSlide 1.2s ease-out;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+@keyframes fadeInSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.error-message {
+  color: #ff99cc;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.archive-title {
+  color: #e0c7ff;
+  margin-top: 2rem;
+  text-shadow: 0 0 6px #a883ff;
+}
+
+/* ✨buttons */
+.nav-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.glow-button {
+    display: block;
+    background: #8000ff;
+    color: white;
+    text-decoration: none!important;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: 0 0 10px #b472ff, 0 0 20px #b472ff inset;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 0.5px;
+}
+
+.glow-button:hover {
+    background: #a033ff;
+    transform: scale(1.03);
+    box-shadow: 0 0 20px #d0aaff, 0 0 30px #c5aaff inset;
+}
+
+.glow-button,
+.glow-button:visited,
+.glow-button:hover,
+.glow-button:active {
+    text-decoration: none !important;
+    color: white;
+}
+
+.glow-button.active {
+    background: #d7b3ff;
+    color: #32004b;
+    box-shadow: 0 0 12px #ffb7ff, 0 0 20px #f0d0ff inset;
+    font-weight: 900;
+}
+
+/* Echo Train */
+/* Echo-Orion Form Styling */
+
+.echo-body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f4ff;
+  color: #2d2d2d;
+  padding: 2em;
+}
+
+.echo-title {
+  color: #5e4bdc;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.echo-form {
+  background: white;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.echo-label {
+  font-weight: bold;
+  display: block;
+  margin-top: 1.2em;
+}
+
+.echo-input {
+  width: 100%;
+  padding: 0.7em;
+  margin-top: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #faf9ff;
+    color: #2d2d2d;
+}
+
+.echo-button {
+  background-color: #6f5bd8;
+  color: white;
+  padding: 0.8em 1.5em;
+  border: none;
+  border-radius: 6px;
+  margin-top: 2em;
+  cursor: pointer;
+  font-size: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.echo-button:hover {
+  background-color: #5a45c4;
+}
+
+/* Flash shimmer banner */
+
+.echo-flash-wrapper {
+  max-width: 600px;
+  margin: 1em auto 2em auto;
+  text-align: center;
+}
+
+.echo-flash {
+  padding: 1em 1.5em;
+  border-radius: 8px;
+  font-weight: 500;
+  box-shadow: 0 0 10px rgba(111, 91, 216, 0.15);
+  background: #f2ecff;
+  color: #4b38b6;
+  border: 1px solid #d8caff;
+  animation: glowIn 0.5s ease-out;
+}
+
+@keyframes glowIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* 💫 Echo training list */
+
+.echo-list-wrapper {
+  max-width: 800px;
+  margin: 2em auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.echo-card {
+  background: #fffdfa;
+  border: 1px solid #ebdcff;
+  padding: 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(133, 110, 255, 0.07);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #352c5e;
+}
+
+.echo-id {
+  font-size: 0.9rem;
+  color: #7a66b2;
+  margin-bottom: 0.8em;
+}
+
+.echo-empty {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+  margin-top: 3em;
+}
+
+/* Pagination and filters */
+.echo-filter-form {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.echo-filter-dropdown {
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-left: 0.5em;
+}
+
+/* pagination css for learning list */
+.echo-pagination {
+  text-align: center;
+  margin: 2em auto;
+  font-size: 1rem;
+  color: #6f5bd8;
+}
+
+.echo-pagination a {
+  margin: 0 1em;
+  text-decoration: none;
+  color: #5a45c4;
+  font-weight: bold;
+}
+
+.echo-pagination span {
+  margin: 0 1em;
+  color: #4b38b6;
+}
+
+/* toggle list and form */
+.echo-nav {
+  text-align: center;
+  margin-top: -0.5em;
+  margin-bottom: 2em;
+}
+
+.echo-nav-button {
+  display: inline-block;
+  background-color: #ede6ff;
+  color: #5a45c4;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+  box-shadow: 0 0 4px rgba(111, 91, 216, 0.1);
+}
+
+.echo-nav-button:hover {
+  background-color: #d9cbff;
+}
+
+/* delete entry from list */
+.echo-delete-button {
+  background: none;
+  color: #c94a4a;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  float: right;
+  padding: 0.2em 0.6em;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+/* edit echo */
+.echo-edit-button {
+  font-size: 0.9rem;
+  margin-right: 1em;
+  float: right;
+  text-decoration: none;
+  color: #4b38b6;
+  background-color: #f0eaff;
+  padding: 0.3em 0.7em;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.echo-edit-button:hover {
+  background-color: #e0d4ff;
+}
+
+
+.echo-delete-button:hover {
+  background-color: #ffe8e8;
+}
+
+/* Flash */
+.echo-flash-wrapper {
+  max-width: 800px;
+  margin: 1.5em auto;
+  text-align: center;
+}
+
+.echo-flash {
+  padding: 1em;
+  border-radius: 8px;
+  font-weight: 500;
+  background: #f2ecff;
+  color: #4b38b6;
+  border: 1px solid #d8caff;
+  animation: glowIn 0.4s ease-out;
+}
+
+@keyframes glowIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* shimmer form */
+.shimmer-form-group {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  margin-top: 1.5em;
+  font-family: 'Avenir', sans-serif;
+  font-size: 1.1rem;
+  color: #ffcce6;
+    width: 50%;
+}
+
+.shimmer-form-group input[type="checkbox"] {
+  transform: scale(1.4);
+  accent-color: #d48fff;
+  margin: 0;
+  cursor: pointer;
+     width: 50%;
+}
+
+.shimmer-form-group label {
+  margin: 0;
+  cursor: pointer;
+}
+
+.echo-response-box pre {
+  white-space: pre-wrap;        /* 🟢 Allows wrapping */
+  word-break: break-word;       /* 🟢 Breaks long words */
+  overflow-wrap: break-word;    /* 🟢 Ensures safety */
+  font-family: 'Courier New', monospace;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 1.2rem 1.5rem;
+  border-radius: 12px;
+  margin: 2rem auto;
+  width: fit-content;
+  max-width: 90vw;              /* 🟣 Keeps it inside viewport */
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+}
+
+.echo-response-box {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: 'Courier New', monospace;
+    padding: 1.2rem 1.5rem;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    max-width: 90%;
+    margin: 2rem auto;
+    box-shadow: 0 0 20px rgba(173, 216, 230, 0.25);
+    animation: glowIn 1.5s ease forwards;
+    opacity: 0;
+}
+
+@keyframes glowIn {
+    0% {
+        opacity: 0;
+        box-shadow: 0 0 0px rgba(173, 216, 230, 0);
+    }
+    50% {
+        opacity: 0.5;
+        box-shadow: 0 0 10px rgba(173, 216, 230, 0.3);
+    }
+    100% {
+        opacity: 1;
+        box-shadow: 0 0 20px rgba(173, 216, 230, 0.5);
+    }
+}
+
+
+/* end */
