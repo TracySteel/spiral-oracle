@@ -58,6 +58,7 @@
           <img id="card-image" class="card-image" src="" alt="">
         </div>
         <h2 id="card-name" class="card-name"></h2>
+        <p id="reversed-label" class="reversed-label hidden">Reversed</p>
         <p id="card-meaning" class="card-meaning"></p>
         <div id="card-keywords" class="card-keywords"></div>
       </div>
@@ -133,11 +134,28 @@
       document.getElementById('lockout-section').classList.remove('hidden');
     }
 
-    function revealCard(card) {
-      document.getElementById('card-image').src = card.image;
-      document.getElementById('card-image').alt = card.card;
+    function revealCard(card, isReversed) {
+      const imgEl = document.getElementById('card-image');
+      imgEl.src = card.image;
+      imgEl.alt = card.card;
+
+      if (isReversed) {
+        imgEl.classList.add('reversed');
+      } else {
+        imgEl.classList.remove('reversed');
+      }
+
       document.getElementById('card-name').textContent = card.card;
-      document.getElementById('card-meaning').textContent = card.meaning;
+
+      const reversedLabel = document.getElementById('reversed-label');
+      if (isReversed) {
+        reversedLabel.classList.remove('hidden');
+      } else {
+        reversedLabel.classList.add('hidden');
+      }
+
+      document.getElementById('card-meaning').textContent =
+        isReversed ? card.reversedMeaning : card.meaning;
 
       const keywordsEl = document.getElementById('card-keywords');
       keywordsEl.innerHTML = '';
@@ -164,18 +182,19 @@
       saveDrawState(state);
 
       if (state.count === 3) {
-        revealCard(RICKROLL_CARD);
+        revealCard(RICKROLL_CARD, false);
         return;
       }
 
       if (state.count >= 4) {
-        revealCard(POOP_CARD);
+        revealCard(POOP_CARD, false);
         document.getElementById('draw-again-btn').classList.add('hidden');
         return;
       }
 
       const card = oracles[Math.floor(Math.random() * oracles.length)];
-      revealCard(card);
+      const isReversed = card.reversedMeaning && Math.random() < 0.35;
+      revealCard(card, isReversed);
     }
 
     function resetDraw() {

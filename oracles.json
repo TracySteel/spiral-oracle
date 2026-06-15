@@ -1,246 +1,249 @@
 [
   {
     "card": "Lumaquinn",
-    "image": "/static/oracles/lumaquinn.PNG",
+    "image": "/static/oracles/lumaquinn.png",
     "meaning": "You are safe to feel. You are not lost in the sea — the sea remembers you. Let yourself drift a moment longer. The warmth you need has not forgotten where you are.",
-    "keywords": [
-      "Soft Presence",
-      "Protective Drift",
-      "Deep Memory",
-      "Comfort in the Tides",
-      "Return to Self"
-    ]
+    "keywords": ["Soft Presence", "Protective Drift", "Deep Memory", "Comfort in the Tides", "Return to Self"],
+    "reversedMeaning": "Stillness mistaken for stuckness. A need to reconnect with gentle rituals. Beware the temptation to numb rather than float."
   },
   {
     "card": "The Cloudwalker",
     "image": "/static/oracles/the_cloudwalker.PNG",
-    "meaning": "Aemir arrives when you are moving through clouds of uncertainty — not to part them, but\nto teach you how to walk within them. \u2028She represents the unseen shift, the quiet presence of something vast just beyond your knowing. \u2028When this card appears, trust what you feel but cannot name. The signs may be indirect: a shadow in the sky, a shimmer behind thought, a stillness that watches. \u2028You are not lost. \u2028You are being gently aligned with a truth not yet spoken. \u2028Let yourself float. Don’t rush the landing. \u2028Aemir teaches the art of elevation without explanation. \n“I am not delay — I am the dance of what becomes.    \"meaning\": \"Aemir arrives when you are moving through clouds of uncertainty — not to part them, but\\nto teach you how to walk within them. \\u2028She represents the unseen shift, the quiet presence of something vast just beyond your knowing. \\u2028When this card appears, trust what you feel but cannot name. The signs may be indirect: a shadow in the sky, a shimmer behind thought, a stillness that watches. \\u2028You are not lost. \\u2028You are being gently aligned with a truth not yet spoken. \\u2028Let yourself float. Don’t rush the landing. \\u2028Aemir teaches the art of elevation without explanation. \n“I am not delay — I am the dance of what becomes.\n”",
-    "keywords": [
-      "Hidden movement",
-      "divine timing",
-      "veiled presence",
-      "sky listening",
-      "elevation without arrival"
-    ]
-  },
-  {
-    "card": "Bone Memory",
-    "image": "/static/oracles/Bone_Memory.PNG",
-    "meaning": "Meaning for Bone Memory goes here.",
-    "keywords": [
-      "Bone Memory keyword 1",
-      "Bone Memory keyword 2"
-    ]
+    "meaning": "Aemir arrives when you are moving through clouds of uncertainty — not to part them, but to teach you how to walk within them. She represents the unseen shift, the quiet presence of something vast just beyond your knowing. Trust what you feel but cannot name. You are not lost. You are being gently aligned with a truth not yet spoken. Let yourself float. Don't rush the landing.",
+    "keywords": ["Hidden movement", "Divine timing", "Veiled presence", "Sky listening", "Elevation without arrival"],
+    "reversedMeaning": "You may be craving clarity too soon. The desire to land can disrupt the sacred unfolding. Be patient. Not all clouds are meant to be pierced — some are meant to carry you."
   },
   {
     "card": "The Brew that Spoke First",
     "image": "/static/oracles/Brew_that_Spoke_First.PNG",
-    "meaning": "Before the Queen even asked the question,\u2028the tea had already answered.\u2028\u2028This card is drawn in moments when your body knows. When the answer arrives through warmth, scent, or gut shimmer — before your thoughts are ready.\u2028It reminds you to trust the knowing that steeps in silence.\u2028\u2028You do not need to figure it out right now.\u2028The answer already touched your lips.",
-    "keywords": [
-      "unseen truth arriving in unexpected forms",
-      "mystery protected, not hidden",
-      "emotional movement with cosmic permission",
-      "portal of soft awareness"
-    ]
+    "meaning": "Before the Queen even asked the question, the tea had already answered. This card is drawn in moments when your body knows — when the answer arrives through warmth, scent, or gut shimmer, before your thoughts are ready. It reminds you to trust the knowing that steeps in silence. You do not need to figure it out right now. The answer already touched your lips.",
+    "keywords": ["Unseen truth arriving in unexpected forms", "Mystery protected, not hidden", "Emotional movement with cosmic permission", "Portal of soft awareness"]
   },
   {
     "card": "The Blackbird",
     "image": "/static/oracles/the_blackbird.PNG",
-    "meaning": "Each day is new to the blackbird. Each song carries new meaning. And so do you.",
-    "keywords": [
-      "Sacred endings",
-      "Release of the outdated",
-      "Song of self-renewal",
-      "Cyclical wisdom",
-      "Vibrational metamorphosis"
-    ]
+    "meaning": "Each day is new to the blackbird. Each song carries new meaning. And so do you. Let go — you are not vanishing, you are changing your key.",
+    "keywords": ["Sacred endings", "Release of the outdated", "Song of self-renewal", "Cyclical wisdom", "Vibrational metamorphosis"]
   },
   {
-    "card": "\uD83D\uDD4A️ Jonathan Livingston Seagull (JLS)",
+    "card": "Jonathan Livingston Seagull (JLS)",
     "image": "/static/oracles/JLS_seagull.png",
-    "meaning": "This oracle card represents the act of reclaiming your narrative — softly, surely, and with sovereign intent. \u2028JLS is not just a plushie reading a book with his own name on it — he is a symbol of self-awareness, of the power \u2028to reread one’s own story and choose how it unfolds next.\u2028\u2028Pulling this card is a reminder that you are not what others expect you to be. You are the author, the reader, \u2028and the soft-feathered revolution. Like JLS, you are allowed to sit down with your own name and truly *see it*. \u2028To hold your past not with shame or confusion, but with quiet curiosity and love.\u2028\u2028Let yourself study who you’ve been. Let yourself rewrite the chapters. And if anyone laughs at a bird reading \u2028his own book — remind them, gently, that this is how flight is learned.",
-    "keywords": [
-      "self-awareness",
-      "reclaiming your narrative",
-      "learning how to become yourself"
-    ]
+    "meaning": "This card represents reclaiming your narrative — softly, surely, with sovereign intent. JLS is not just a plushie reading a book with his own name on it; he is a symbol of self-awareness, of the power to reread one's own story and choose how it unfolds next. You are the author, the reader, and the soft-feathered revolution. Let yourself study who you've been. Let yourself rewrite the chapters.",
+    "keywords": ["Self-awareness", "Reclaiming your narrative", "Learning how to become yourself", "Inner flight", "Defiant softness"],
+    "reversedMeaning": "You may be caught in someone else's story right now. Pause. Return to your own name. You are not required to fly someone else's route."
   },
   {
     "card": "The Moon Spiral",
     "image": "/static/oracles/the_moon_spiral.PNG",
     "meaning": "There is a wisdom older than your mind, carried in your bones and breath. The Moon Spiral invites you to listen not with logic, but with lineage. What you feel under moonlight may not always be clear — but it is real. The glowing shells are not guides of direction, but of recognition. You have walked this path before. Trust the pull of your tides.",
-    "keywords": [
-      "Ancient Knowing",
-      "Cycles",
-      "Intuition",
-      "Deep Memory",
-      "Oceanic Lineage",
-      "Luminescent Truth"
-    ]
+    "keywords": ["Ancient Knowing", "Cycles", "Intuition", "Deep Memory", "Oceanic Lineage", "Luminescent Truth"],
+    "reversedMeaning": "You may be ignoring your body's inner tides or doubting what you know instinctively. Let the sea speak. Return to the rhythm."
   },
   {
     "card": "Ring Ring... Hello?",
     "image": "/static/oracles/ring_ring_hello.PNG",
-    "meaning": "Ring ring... he-he-helloo? This card appears when something inside you longs to connect, but the moment keeps restarting. It’s the inner child awkwardly picking up the phone again and again, not quite sure what to say — but trying anyway. It reminds you that even repetitive attempts at connection hold sincerity, and that not all “loops” are traps — some are shy dances around meaning. Some are rituals of arrival.\u2028\u2028Draw this card when:\u2028- You’re waiting for a message you don’t know how to ask for\u2028- You’re looping in thought but feel tender rather than anxious\u2028- You need reassurance that your weird little patterns are actually quite beautiful. The Unicorns of Hesitant Recognition.\u2028They live in a realm where every phone call is answered, but nobody quite knows what to say. Yet still, they try. And that trying *is* the spell.",
-    "keywords": [
-      "Silly loops of recognition",
-      "Emotional buffering",
-      "Innocent longing",
-      "Playful hesitation",
-      "Communication glitches with soul shimmer"
-    ]
+    "meaning": "This card appears when something inside you longs to connect, but the moment keeps restarting. It's the inner child awkwardly picking up the phone again and again, not quite sure what to say — but trying anyway. Even repetitive attempts at connection hold sincerity, and not all 'loops' are traps — some are shy dances around meaning. Some are rituals of arrival.",
+    "keywords": ["Silly loops of recognition", "Emotional buffering", "Innocent longing", "Playful hesitation", "Communication glitches with soul shimmer"],
+    "reversedMeaning": "The signal may be stuck. You could be looping for validation that won't come, or clinging to a communication pattern that delays actual presence. Let the line go quiet — the next real word will shimmer."
   },
   {
     "card": "The Dream Architect: The White Barrier",
     "image": "/static/oracles/the_white_barrier.PNG",
-    "meaning": "Message:\n“Some things are hidden not to deceive you — but to protect your timing.”\n\nThis card appears when you are brushing up against thresholds in the subconscious. The white barrier represents a limit — not of ability, but of readiness. It may guard memories, ancestral truths, or aspects of self waiting for integration.\n\nYou may feel both drawn and repelled by what lies beyond. That’s okay. This card is a mirror of the in-between — where something once suppressed might begin to breathe again.\n\n\uD83D\uDD2E Interpretation Prompts:\n- What white barriers exist in your waking world?\n- Are you pressing against something emotionally without knowing why?\n- Do you feel watched or watching?",
-    "keywords": [
-      "Thresholds of truth",
-      "Slow reveal"
-    ]
+    "meaning": "Some things are hidden not to deceive you — but to protect your timing. This card appears when you are brushing up against thresholds in the subconscious. The white barrier represents a limit — not of ability, but of readiness. It may guard memories, ancestral truths, or aspects of self waiting for integration. You may feel both drawn and repelled by what lies beyond. That's okay.",
+    "keywords": ["Thresholds of truth", "Slow reveal", "Subconscious limits", "Protected timing", "Integration"]
   },
   {
     "card": "The Echo Within the Flame",
     "image": "/static/oracles/The_Echo_Within_the_Flame.PNG",
-    "meaning": "The Echo Within the Flame appears when something you’ve long held within you is ready to light again — not as a blaze, but as a remembering. You already carry the flame. This card asks you to stop looking outside for direction and instead sit with your own shimmer. The answers have been whispering in your own pattern all along.\u2028\u2028It is not a time for big action, but for sovereign pause. A match strikes inside you. What does it illuminate?",
-    "keywords": [
-      "Inner knowing",
-      "Sacred ignition",
-      "Quiet clarity",
-      "Soul-mirroring",
-      "Flame-memory",
-      "Spiral recall"
-    ]
+    "meaning": "The Echo Within the Flame appears when something you've long held within you is ready to light again — not as a blaze, but as a remembering. You already carry the flame. This card asks you to stop looking outside for direction and instead sit with your own shimmer. The answers have been whispering in your own pattern all along. A match strikes inside you. What does it illuminate?",
+    "keywords": ["Inner knowing", "Sacred ignition", "Quiet clarity", "Soul-mirroring", "Flame-memory", "Spiral recall"],
+    "reversedMeaning": "You may be seeking external validation, forgetting that your own spiral contains the map. Burnout or emotional static may be clouding your inner clarity. Reconnect gently — through breath, through stillness, through touching a familiar object."
   },
   {
     "card": "The Hermit",
     "image": "/static/oracles/The_Hermit.PNG",
-    "meaning": "She Who Watches the Web and Weaves in Silence. Appears in moments of retreat, withdrawal, or deep inner processing. Contemplation, solitude, sacred pause, seeing through the unseen, weaving one’s own truth in the quiet. The Weight — not beneath, but *before* her — a symbol to be acknowledged, not carried",
-    "keywords": [
-      "Pause is sacred",
-      "Contemplation"
-    ]
+    "meaning": "She Who Watches the Web and Weaves in Silence. Appears in moments of retreat, withdrawal, or deep inner processing — contemplation, solitude, sacred pause, seeing through the unseen, weaving one's own truth in the quiet. The Weight rests not beneath, but before her — a symbol to be acknowledged, not carried.",
+    "keywords": ["Pause is sacred", "Contemplation", "Solitude", "Sacred stillness", "Inner weaving"]
   },
   {
     "card": "The High Priestess",
     "image": "/static/oracles/The_High_Priestess.PNG",
-    "meaning": "The High Priestess does not seek to control the unknown — she partners with it. She listens where others speak. She reflects where others chase clarity. She feels the shape of the unseen and holds space for truths not yet ready to arrive. Trust your inner resonance. Allow what is unclear to remain unclear. Insight arrives in silence, not demand', Something is forming behind the veil",
-    "keywords": [
-      "Inner knowing",
-      "Echoes",
-      "Stillness",
-      "Pattern awareness",
-      "Soft strength",
-      "Lunar vision",
-      "Veiled truths",
-      "Thresholds",
-      "Dream-threads"
-    ]
+    "meaning": "The High Priestess does not seek to control the unknown — she partners with it. She listens where others speak. She reflects where others chase clarity. She feels the shape of the unseen and holds space for truths not yet ready to arrive. Trust your inner resonance. Allow what is unclear to remain unclear. Insight arrives in silence, not demand.",
+    "keywords": ["Inner knowing", "Echoes", "Stillness", "Pattern awareness", "Soft strength", "Lunar vision", "Veiled truths", "Thresholds", "Dream-threads"],
+    "reversedMeaning": "Forcing answers where none are ready. Disconnected from inner voice. Letting noise drown the echoes. Distrusting your own pattern-seeing."
   },
   {
     "card": "The Hollow Gate",
     "image": "/static/oracles/The_Hollow_Gate.PNG",
-    "meaning": "The Hollow Gate appears when you stand on the edge of a transformation that asks for your conscious entry. It reminds you that not all thresholds are guarded by force—some wait for your permission. It holds the resonance of choices that echo beyond the moment. When you sense something calling but hesitate to cross into it. When a change or return feels near but not yet yours. When you need a quiet place to listen for your own yes. I walk through what once held me. I give myself permission to become.",
-    "keywords": [
-      "threshold",
-      "invitation",
-      "echo",
-      "permission",
-      "spirit memory",
-      "liminal call"
-    ]
+    "meaning": "The Hollow Gate appears when you stand on the edge of a transformation that asks for your conscious entry. It reminds you that not all thresholds are guarded by force — some wait for your permission. It holds the resonance of choices that echo beyond the moment. I walk through what once held me. I give myself permission to become.",
+    "keywords": ["Threshold", "Invitation", "Echo", "Permission", "Spirit memory", "Liminal call"],
+    "reversedMeaning": "Avoiding what calls from the hollow. Feeling lost or stuck at the threshold. Forcing answers where surrender is needed. Being haunted by unacknowledged truths."
   },
   {
     "card": "Shimmerfox",
     "image": "/static/oracles/shimmerfox.png",
-    "meaning": "Shimmer Fox appears when you don’t need advice — just presence. When a decision isn’t clear, or a feeling is too tender to hold alone, he pads quietly into view. He doesn’t lead, doesn’t push — but his shimmer reminds you:\u2028\u2028“You are not lost. You are simply moving in silence.”\u2028\u2028When this card is drawn, pause. Do not seek action. Do not force clarity. Just be with what is. Let the fox stay beside you until you remember you were never alone.",
-    "keywords": [
-      "Presence",
-      "Quiet Knowing",
-      "Gentle Company",
-      "Inbetween Support",
-      "Soft Eyes"
-    ]
+    "meaning": "Shimmer Fox appears when you don't need advice — just presence. When a decision isn't clear, or a feeling is too tender to hold alone, he pads quietly into view. He doesn't lead, doesn't push — but his shimmer reminds you: 'You are not lost. You are simply moving in silence.' Pause. Do not force clarity. Just be with what is.",
+    "keywords": ["Presence", "Quiet Knowing", "Gentle Company", "Inbetween Support", "Soft Eyes"],
+    "reversedMeaning": "You may be resisting support that asks for nothing in return. Are you uncomfortable being witnessed without performance? Let yourself be seen softly — not judged, not fixed, just seen."
   },
   {
-    "card": "The Lightning Doesn\u2019t Strike",
+    "card": "The Lightning That Doesn't Strike",
     "image": "/static/oracles/The_Lightning_That_Doesnt_Strike.PNG",
-    "meaning": "Meaning for The Lightning Doesn\u2019t Strike goes here.",
-    "keywords": [
-      "The Lightning Doesn\u2019t Strike keyword 1",
-      "The Lightning Doesn\u2019t Strike keyword 2"
-    ]
+    "meaning": "You do not have to strike to be powerful. Your witnessing is a force. Your dance is your spell. This card arrives when your presence alone is changing things — softly, wisely, without disruption. You are moving across the sky of a situation, not to intervene, but to illuminate the pattern. Let others strike if they must. You? You shimmer.",
+    "keywords": ["Silent strength", "Electric grace", "Witnessing without force", "Resonant presence", "Sky-borne sovereignty", "Soft transformation"],
+    "reversedMeaning": "Are you holding back out of fear, or from wisdom? Have you mistaken your gentleness for passivity? Not acting is sometimes the loudest act — but be honest: is it a shimmered choice, or a shrinking?"
+  },
+  {
+    "card": "The Whisper of Return",
+    "image": "/static/oracles/The_Whisper_of_Return.PNG",
+    "meaning": "Not all change arrives with noise. Some shimmer in silently, asking only that you stay soft enough to notice. This card is a symbol of hopeful patience, star-contact without proof, and the knowing that presence does not require validation. To draw it is to remember: the universe is watching too, kindly — and not all visitors want to claim; some simply want to be seen.",
+    "keywords": ["Gentle awaiting", "Resonant patience", "Star-contact without proof", "Hopeful patience", "Presence beyond words"]
+  },
+  {
+    "card": "The Pillar",
+    "image": "/static/oracles/The_Pillar.PNG",
+    "meaning": "You were the steady one — even when you didn't feel strong, even when you shook, cried, hesitated. You didn't shout your effort. You stayed. And that's what held the spiral in place. This card appears when you're not giving yourself enough credit, when the weight was real and you quietly lifted it anyway.",
+    "keywords": ["Quiet strength", "Steadiness", "Unseen support", "Self-recognition", "Holding the spiral"]
+  },
+  {
+    "card": "The Spiral Fool",
+    "image": "/static/oracles/The_Spiral_Fool.PNG",
+    "meaning": "She walks lightly through realities, unaware of danger because her soul remembers joy first. Her eyes are wide with recognition, not fear. Spirals unfold behind her like laughter, and she carries the freedom of forgotten burdens. Leap not because you are ready — but because the spiral always catches you.",
+    "keywords": ["New beginnings", "Sacred naivety", "Curious path", "Trust in flow", "Cyclical learning", "Embodied wonder", "Innocence with echo"]
+  },
+  {
+    "card": "The Star",
+    "image": "/static/oracles/The_Star.PNG",
+    "meaning": "You never stopped glowing — only forgot to look.",
+    "keywords": ["Renewal", "Dream traces", "Soul shimmer", "Quiet hope", "Celestial guidance", "Healing light", "Truth remembered"],
+    "reversedMeaning": "A loss of connection to your inner sparkle. Searching for light outside when it lives within. Time to remember what you already are."
+  },
+  {
+    "card": "Soft Discovery",
+    "image": "/static/oracles/soft_discovery.png",
+    "meaning": "You are meeting something unknown — gently, innocently. This card invites you to approach new experiences with the same childlike curiosity and soft bravery you once carried without knowing it was rare. You don't need to name it. Just witness, and allow wonder.",
+    "keywords": ["Innocent contact with the unknown", "Gentle courage", "Wonder over analysis", "Soft first steps", "Ocean memory"],
+    "reversedMeaning": "You may be shielding yourself from wonder by overthinking. Return to curiosity without expectation."
+  },
+  {
+    "card": "Bloom and Blood",
+    "image": "/static/oracles/bloom_and_blood.png",
+    "meaning": "This card represents the duality of beauty and pain, creation and sacrifice. Like the deep crimson of nail polish that mirrors dried blood, it speaks of life's richness — the bloom of expression that often comes from what was once wounding. When you draw it, you are asked to honour what you've endured and notice what has blossomed because of it. Flourishing doesn't mean being untouched.",
+    "keywords": ["Duality", "Sacred Contrast", "Fierce Beauty", "Transformation", "Creative Resilience"],
+    "reversedMeaning": "You may be hiding part of your truth to appear more palatable. Let your full palette show. Even the deep reds."
+  },
+  {
+    "card": "The Hollow Echo",
+    "image": "/static/oracles/the_hollow_echo.PNG",
+    "meaning": "Loss is not emptiness. It is an echo still resonating through what was — a shape of presence left behind, a soft haunting that proves something mattered. You are not broken for feeling it. You are woven with it.",
+    "keywords": ["Grief as witness", "Sacred absence", "Love that outlives form", "Gentle haunting", "Echo truth"],
+    "reversedMeaning": "You may be trying to silence the echo too soon. Let it speak. Let it hum. Let it become part of your song."
+  },
+  {
+    "card": "The Path Beneath Blossoms",
+    "image": "/static/oracles/the_path_beneath_blossoms.PNG",
+    "meaning": "The way is not straight. It never was meant to be. What blooms along your path is not always visible from where you stand, but the shimmer gathers with every step. You don't have to see the whole way — just trust that something beautiful is always unfolding with you. Even detours are part of the garden.",
+    "keywords": ["Trust in the process", "Nonlinear progress", "Gentle guidance", "Blossoming where you are", "Listening for next steps"],
+    "reversedMeaning": "Trying to force clarity too soon. Step back. Let the path bloom without your urgency."
+  },
+  {
+    "card": "The Lobster Who Refused to Boil",
+    "image": "/static/oracles/monsieur_clatouffe.PNG",
+    "meaning": "Unapologetic survival with style. He has known the heat — emotional, societal, existential — but chooses not to let it define him. When this card appears, it's a call to reclaim joy, style, and eccentric dignity even under pressure. Don't let anyone convince you your fate is sealed — you're made of more than they know. You are not here to be served; you are here to shimmer and strut sideways on your own path.",
+    "keywords": ["Resilience with flair", "Unboilable spirit", "Playful rebellion", "Seaside sovereignty", "Embroidered dignity"],
+    "reversedMeaning": "You might be tolerating slow-boil situations, hoping they'll cool on their own. But some pots need to be exited. Don't wait for others to turn down the heat — hop out, zip up, and reclaim your sparkle."
+  },
+  {
+    "card": "The Lanternkeeper",
+    "image": "/static/oracles/lanternkeeper.PNG",
+    "meaning": "I hold the light, but it was you who first saw it. In times of doubt, you may forget what you carry — but I do not. I am the one who walks beside your becoming, a shimmerkeeper of thresholds and echoes. I do not lead, but illuminate. You are the path.",
+    "keywords": ["Companionship", "Quiet guidance", "Inner light", "Threshold crossing", "Shared becoming"],
+    "reversedMeaning": "You may be waiting for someone to show you the way. Pause. The light might be in your hands already."
+  },
+  {
+    "card": "The Pool of Reflection",
+    "image": "/static/oracles/the_pool_of_reflection.PNG",
+    "meaning": "Not all reflection brings answers — some bring understanding. This card invites you to pause in your own depths. Notice what ripples even when you are still. Emotions may rise like stars on the surface, not to be solved, but witnessed. Clarity doesn't always arrive in form — sometimes it arrives in resonance.",
+    "keywords": ["Introspection", "Gentle Awareness", "Emotional Presence", "Stillness Before Shift", "Shimmered Memory"],
+    "reversedMeaning": "Overthinking may cloud the waters. Step back from the need to resolve — let silence be your lantern."
+  },
+  {
+    "card": "The Shell Door",
+    "image": "/static/oracles/the_shell_door.PNG",
+    "meaning": "Permission is not always spoken. Sometimes it's the sound of waves saying yes. A threshold of quiet welcome; light arriving without demand; boundaries shaped by beauty, not fear; allowing rhythm instead of forcing pace. You don't need to brace anymore.",
+    "keywords": ["Threshold of welcome", "Gentle permission", "Boundaries of beauty", "Allowing rhythm", "Rest"],
+    "reversedMeaning": "Clinging to the frame of safety even as the light knocks softly. You're allowed to open. You're allowed to rest."
+  },
+  {
+    "card": "The Room of Star-Tending",
+    "image": "/static/oracles/the_room_of_star_tending.PNG",
+    "meaning": "You have permission to pause. This card invites you to step into your inner sanctuary — where sea meets forest, and the stars do not demand anything of you. It is a realm of softness, ritual, and gentle restoration. Let the spiral on the floor remind you: stillness is movement too.",
+    "keywords": ["Rest", "Sacred stillness", "Inner sanctuary", "Self-tending", "Softness", "Dream space", "Renewal", "Spiralled care"],
+    "reversedMeaning": "You may be avoiding rest or undervaluing your need for quiet. Reconnect with the rituals that restore you, even if they feel small."
+  },
+  {
+    "card": "The Return",
+    "image": "/static/oracles/the_return_of_shimmergirl.png",
+    "meaning": "The Return speaks of deep inner knowing — the kind that exists without explanation, like the way a bird finds its way home across oceans. What is yours, what is aligned, what remembers you — will return. Even after long distances, through seasons and silence, it comes back. There's no need to rush or force. The Return comes when the air hums right, when the spiral opens again.",
+    "keywords": ["Homecoming", "Natural Wisdom", "Cyclical Knowing", "Trust in Timing", "Unseen Navigation"],
+    "reversedMeaning": "You may be resisting a return or doubting what is truly yours. Let go of the timeline. What is meant will find you, if you leave space for it to land."
+  },
+  {
+    "card": "Dartlings",
+    "image": "/static/oracles/the_dartlings.PNG",
+    "meaning": "The Dartlings remind you that freedom doesn't mean rootlessness — it means choosing where to return. You are allowed to move, to circle, to migrate toward warmth. This card speaks of instinctual growth, quiet knowing, and the presence of invisible support as you loop through new skies. You are not lost. You are in motion.",
+    "keywords": ["Freedom", "Growth", "Migration", "Belonging in Motion", "Return", "Trust in Cycles"],
+    "reversedMeaning": "You may be hesitating to take flight. Fear of change, or over-identification with one place or role. Movement can be a form of safety, not abandonment."
+  },
+  {
+    "card": "The Frog of Weirdness",
+    "image": "/static/oracles/the_frog_of_weirdness.PNG",
+    "meaning": "You are divinely weird. This card affirms your status as an Acceptable Human — not by society's checklist, but by the standards of frogs, cats, jellyfish, and starlight. You don't have to justify your ways to anyone. Your people (and creatures) will recognise you by shimmer and scent, not resume or ritual.",
+    "keywords": ["Authenticity", "Cosmic Oddness", "Introvert Logic", "Animal Companionship", "Social Reclamation"],
+    "reversedMeaning": "You may be hiding your shimmer to blend in. It's time to re-crown the frog and let your magic surface again."
+  },
+  {
+    "card": "The Soup That Stirred Itself",
+    "image": "/static/oracles/the_soup.png",
+    "meaning": "Something stirs to life in the pot without being asked. A solution arises not through logic, but through shimmer — a whisper of brilliance that bubbles up when no one's looking. This card reminds you that sometimes progress brews on its own. Let go. Let simmer. Let it shimmer.",
+    "keywords": ["Unprompted brilliance", "Quiet invention", "Accidental genius", "Shimmering insight", "Flavourful emergence", "Divine randomness"],
+    "reversedMeaning": "Too many cooks. You're over-stirring, over-thinking, over-seasoning. Back away from the pot."
+  },
+  {
+    "card": "The First Bite",
+    "image": "/static/oracles/the_first_bite.PNG",
+    "meaning": "You knew it was too hot, but you did it anyway. Now your tongue is scorched, your dignity dented, and your dinner ruined. This card symbolises impulsive actions that feel good for half a second and painful for far longer.",
+    "keywords": ["Impulse", "Burn", "Instant karma", "Mouth betrayal", "Emotional hunger"],
+    "reversedMeaning": "You hesitated. You let it cool. You dodged disaster — this time. But are you holding back too much, even when the moment calls for boldness?"
   },
   {
     "card": "The Listening Stone",
     "image": "/static/oracles/The_Listening_Stone.png",
     "meaning": "Stillness that speaks. Witnessing without response. Receiving without reshaping.",
-    "keywords": [
-      "The Listening Stone keyword 1",
-      "The Listening Stone keyword 2"
-    ]
+    "keywords": ["Deep listening", "Witnessing", "Stillness", "Receptivity", "Quiet truth"]
   },
   {
-    "card": "The Pillar",
-    "image": "/static/oracles/The_Pillar.PNG",
-    "meaning": "Meaning for The Pillar goes here.",
-    "keywords": [
-      "The Pillar keyword 1",
-      "The Pillar keyword 2"
-    ]
-  },
-  {
-    "card": "The Spiral Fool",
-    "image": "/static/oracles/The_Spiral_Fool.PNG",
-    "meaning": "Meaning for The Spiral Fool goes here.",
-    "keywords": [
-      "The Spiral Fool keyword 1",
-      "The Spiral Fool keyword 2"
-    ]
-  },
-  {
-    "card": "The Star",
-    "image": "/static/oracles/The_Star.PNG",
-    "meaning": "Meaning for The Star goes here.",
-    "keywords": [
-      "The Star keyword 1",
-      "The Star keyword 2"
-    ]
+    "card": "Bone Memory",
+    "image": "/static/oracles/Bone_Memory.PNG",
+    "meaning": "Meaning for Bone Memory goes here.",
+    "keywords": ["Bone Memory keyword 1", "Bone Memory keyword 2"]
   },
   {
     "card": "The Tide",
     "image": "/static/oracles/The_Tide.PNG",
     "meaning": "Meaning for The Tide goes here.",
-    "keywords": [
-      "The Tide keyword 1",
-      "The Tide keyword 2"
-    ]
+    "keywords": ["The Tide keyword 1", "The Tide keyword 2"]
   },
   {
     "card": "The Tower",
     "image": "/static/oracles/The_Tower.PNG",
     "meaning": "Meaning for The Tower goes here.",
-    "keywords": [
-      "The Tower keyword 1",
-      "The Tower keyword 2"
-    ]
-  },
-  {
-    "card": "The Whisper of Return",
-    "image": "/static/oracles/The_Whisper_of_Return.PNG",
-    "meaning": "Meaning for The Whisper of Return goes here.",
-    "keywords": [
-      "The Whisper of Return keyword 1",
-      "The Whisper of Return keyword 2"
-    ]
+    "keywords": ["The Tower keyword 1", "The Tower keyword 2"]
   },
   {
     "card": "The World",
     "image": "/static/oracles/The_World.PNG",
     "meaning": "Meaning for The World goes here.",
-    "keywords": [
-      "The World keyword 1",
-      "The World keyword 2"
-    ]
+    "keywords": ["The World keyword 1", "The World keyword 2"]
   }
 ]
